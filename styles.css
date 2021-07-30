@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-div {
+/* div {
     background-color: orange;
     width: 200px;
     height: 200px;
@@ -15,4 +15,18 @@ div {
     margin: 20px;
     font-size: 28px;
     font-weight: bold;
+} */
+
+.nav-wrap {
+    display: flex;
+    max-width: fit-content;
+}
+
+.nav-items {
+    display:flex;
+    max-width: fit-content;
+}
+
+div {
+    border-style: solid;
 }
