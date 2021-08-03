@@ -19,14 +19,36 @@ h1 {
 
 .nav-wrap {
     display: flex;
-    max-width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
-.nav-items {
+.nav-logo {
     display:flex;
-    max-width: fit-content;
+    justify-content:center;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav-links a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding:1em;
 }
 
 div {
     border-style: solid;
+    border-width: thin;
 }
